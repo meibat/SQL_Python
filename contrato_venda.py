@@ -136,6 +136,7 @@ class db_sql:
             empreendimento = cursor.fetchall()
             return empreendimento
 
+#Gera o contrato em txt
 class arquivo_txt:
     try:
         db_sql().variaveis()

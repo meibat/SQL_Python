@@ -162,7 +162,8 @@ mediante as seguintes condições:\n
 
     def criar_txt(self):
         try:
-            arquivo = open(f'{cpf_cliente}-{nome_cliente}.txt', 'w+')
+            nome_arquivo = f'{cpf_cliente}-{nome_cliente}.txt'
+            arquivo = open(f'{nome_arquivo}', 'w+')
         except:
             print('Erro na criação do arquivo!')
             arquivo = False
@@ -170,7 +171,6 @@ mediante as seguintes condições:\n
         else:
             arquivo.write(self.contrato())
             arquivo.close()
-
 
 
 arquivo = arquivo_txt().criar_txt()

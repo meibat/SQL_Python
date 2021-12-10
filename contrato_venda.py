@@ -1,3 +1,5 @@
+import shutil
+
 import pyodbc
 
 #Conexão com o DB
@@ -163,7 +165,9 @@ mediante as seguintes condições:\n
     def criar_txt(self):
         try:
             nome_arquivo = f'{cpf_cliente}-{nome_cliente}.txt'
-            arquivo = open(f'{nome_arquivo}', 'w+')
+            caminho_arquivo = f'C:/Users/melissa.santos/OneDrive - tenda.com/Área de Trabalho/Estagio/arquivos/Desafio 4/SQL_Python/{nome_arquivo}'
+            caminho_pasta = 'C:/Users/melissa.santos/OneDrive - tenda.com/Área de Trabalho/Estagio/arquivos/Desafio 4/SQL_Python/contratos'
+            arquivo = open(f'{caminho_arquivo}', 'w+')
         except:
             print('Erro na criação do arquivo!')
             arquivo = False
@@ -171,7 +175,7 @@ mediante as seguintes condições:\n
         else:
             arquivo.write(self.contrato())
             arquivo.close()
-
+            shutil.move(caminho_arquivo, caminho_pasta)
 
 arquivo = arquivo_txt().criar_txt()
 if arquivo == False:

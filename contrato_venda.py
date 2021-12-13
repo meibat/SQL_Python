@@ -1,5 +1,4 @@
 import shutil
-
 import pyodbc
 
 #Conexão com o DB

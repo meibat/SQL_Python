@@ -113,7 +113,7 @@ class db_sql:
 
     def dados_agente_vendas(self, cursor,cnpj_agente_vendas):
         try:
-            cursor.execute(f"""SELECT DISTINCT AGENTE_VENDAS.NOME, AGENTE_VENDAS.PROFISSAO, AGENTE_VENDAS.CPF,AGENTE_VENDAS.EMPRESA,
+            cursor.execute(f"""SELECT TOP 1 AGENTE_VENDAS.NOME, AGENTE_VENDAS.PROFISSAO, AGENTE_VENDAS.CPF,AGENTE_VENDAS.EMPRESA,
                                 AGENTE_VENDAS.ENDERECO, AGENTE_VENDAS.CIDADE, AGENTE_VENDAS.ESTADO
                                 FROM AGENTE_VENDAS INNER JOIN VENDA ON AGENTE_VENDAS.CNPJ = VENDA.COD_AGE
                                 WHERE COD_AGE = '{cnpj_agente_vendas}';""")

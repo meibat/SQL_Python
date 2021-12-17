@@ -7,7 +7,7 @@ class db_sql:
         try:
             cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};'
                                   'SERVER=34.136.62.4;'
-                                  'DATABASE=desafio_SQL;'
+                                  'DATABASE=Teste_desafio;'
                                   'UID=sqlserver;'
                                   'PWD=b0u9t9p12;')
         except:
@@ -155,9 +155,6 @@ portador da cédula de identidade R.G. nº {rg_cliente} e CPF nº {cpf_cliente} 
 2.CLÁUSULA SEGUNDA - DO OBJETO:\n
 2.1 IMÓVEL: Localizado no {nome_empreendimento} , Matrícula nº {matricula_empreendimento} no endereço Rua {rua_empreendimento} , 
 Bairro {bairro_empreendimento} - na cidade de {cidade_empreendimento}, {estado_empreendimento} .\n
-2.2 Por este instrumento particular e na melhor forma de direito, as partes antes nomeadas e qualificadas, 
-tem certo e ajustado, por um lado compra e por outro a venda do imóvel antes descrito e caracterizado, 
-mediante as seguintes condições:\n
 3.CLÁUSULA TERCEIRA - DO PREÇO E DA FORMA DE PAGAMENTO:\n
 3.1 O valor total da presente transação é de R$ {valor_empreendimento}."""
         return texto

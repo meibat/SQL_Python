@@ -1,13 +1,13 @@
 import shutil
 import pyodbc
 
-#Conexão com o DB
+#Conexão com o DB e consulta
 class db_sql:
     def connection(self):
         try:
             cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};'
                                   'SERVER=34.136.62.4;'
-                                  'DATABASE=Teste_desafio;'
+                                  'DATABASE=Desafio_SQL;'
                                   'UID=sqlserver;'
                                   'PWD=b0u9t9p12;')
         except:

@@ -97,9 +97,9 @@ INSERT INTO BANCO VALUES
 --	(COD_BANCO, NOME)
 	('001', 'Banco do Brasil S.A'),
 	('033', 'Banco Santander (Brasil) S.A'),
-	('104', 'Caixa EconÙmica Federal'),
+	('104', 'Caixa Econ√¥mica Federal'),
 	('237', 'Banco Bradesco S.A'),
-	('341', 'Banco Ita˙ S.A'),
+	('341', 'Banco Ita√∫ S.A'),
 	('260', 'Nu Pagamentos S.A');
 
 INSERT INTO CONTATO VALUES
@@ -112,7 +112,7 @@ INSERT INTO CONTATO VALUES
 	('006', NULL, 'DS@LIVE.COM'),
 	('007', '999990007', NULL),
 	('008', NULL, 'DS@DS.COM'),
-	('009', '999990009', 'AV.DS@TENDA.COM'),
+	('009', '999990009', 'AV.DS@HOTMAIL.COM'),
 	('010', '999990010', NULL),
 	('011', '999990011', NULL),
 	('012', '999990012', NULL),
@@ -120,30 +120,30 @@ INSERT INTO CONTATO VALUES
 
 INSERT INTO EMPREENDIMENTOS VALUES 
 --	(COD_EMPRE, NOME, RUA, BAIRRO, CIDADE, ESTADO)
-	('0001', 'Viva Barra Funda', 'Rua do Bosque', 'Barra Funda', 'S„o Paulo', 'SP'),
-	('0002', 'Reserva Amantikir', 'Rua Turvolandia', 'Bonsucesso', 'Guarulhos', 'SP'),
-	('0003', 'CamaÁari Park', 'Avenida Jorge Amado', 'Jardim Limoeiro','CamaÁari', 'BA'),
-	('0004', 'Recanto da Lagoa', 'R Dirceu D Braga', 'Trevo', 'Belo Horizonte', 'MG'),
-	('0005', 'Vila Ravena', 'Rua Mitsuharu Matsushita', 'Ch·cara Est‚ncia Paulista', 'Suzano', 'SP'),
-	('0006', 'Residencial Vila Florida', 'AVENIDA MARIO FONSECA VIANA', 'ANGICOS', 'VESPASIANO', 'MG'),
-	('0007', 'Costa Portuguesa', 'Rua da BÈlgica', 'Abrantes','CamaÁari', 'BA'),
-	('0008', 'Alegria', 'Rua RomÍnia', 'Parque Marechal Rondon', 'Cachoeirinha', 'RS'),
-	('0009', 'Viva Sapopemba', 'Rua Clenio Wanderley', 'Fazenda da Juta', 'S„o Paulo', 'SP'),
-	('0010', 'Alto S„o Francisco', 'Rua InocÍncio de Oliveira Alves', 'Rubem Berta', 'Porto Alegre', 'RS'),
-	('0011', 'Vivere', 'PraÁa Amianto Capital', 'Guaianases', 'S„o Paulo', 'SP'),
-	('0012', 'Reserva dos Eucaliptos II', 'Rua AntÙnio LourenÁo Rosa', 'Mato Grande', 'Canoas', 'RS'),
-	('0013', 'Reserva do Conde', 'Rua Professor Moura Bastos', 'Iapi','Salvador', 'BA'),
-	('0014', 'Brisas Salvador Norte', 'Rua Boquira', 'Jardim das Margaridas','Salvador', 'BA'),
-	('0015', 'Vista Tropical', 'Rua Geraldo Brasil', 'Cajazeiras XI','Salvador', 'BA');
+	('0001', 'xxxxxx', 'Rua do Bosque', 'Barra Funda', 'S√£o Paulo', 'SP'),
+	('0002', 'xxxxxx', 'Rua Turvolandia', 'Bonsucesso', 'Guarulhos', 'SP'),
+	('0003', 'xxxxxx', 'Avenida Jorge Amado', 'Jardim Limoeiro','Cama√ßari', 'BA'),
+	('0004', 'xxxxxx', 'R Dirceu D Braga', 'Trevo', 'Belo Horizonte', 'MG'),
+	('0005', 'xxxxxx', 'Rua Mitsuharu Matsushita', 'Ch√°cara Est√¢ncia Paulista', 'Suzano', 'SP'),
+	('0006', 'xxxxxx', 'AVENIDA MARIO FONSECA VIANA', 'ANGICOS', 'VESPASIANO', 'MG'),
+	('0007', 'xxxxxx', 'Rua da B√©lgica', 'Abrantes','Cama√ßari', 'BA'),
+	('0008', 'xxxxxx', 'Rua Rom√™nia', 'Parque Marechal Rondon', 'Cachoeirinha', 'RS'),
+	('0009', 'xxxxxx', 'Rua Clenio Wanderley', 'Fazenda da Juta', 'S√£o Paulo', 'SP'),
+	('0010', 'xxxxxx', 'Rua Inoc√™ncio de Oliveira Alves', 'Rubem Berta', 'Porto Alegre', 'RS'),
+	('0011', 'xxxxxx', 'Pra√ßa Amianto Capital', 'Guaianases', 'S√£o Paulo', 'SP'),
+	('0012', 'xxxxxx', 'Rua Ant√¥nio Louren√ßo Rosa', 'Mato Grande', 'Canoas', 'RS'),
+	('0013', 'xxxxxx', 'Rua Professor Moura Bastos', 'Iapi','Salvador', 'BA'),
+	('0014', 'xxxxxx', 'Rua Boquira', 'Jardim das Margaridas','Salvador', 'BA'),
+	('0015', 'xxxxxx', 'Rua Geraldo Brasil', 'Cajazeiras XI','Salvador', 'BA');
 
 INSERT INTO DADOS_BANCARIOS VALUES
 --	(N_CONTA, TIPO, BANCO)
 	('000000001', 'CORRENTE', '001'),
-	('000000002', 'POUPAN«A', '104'),
-	('000000003', 'SAL¡RIO', '341'),
+	('000000002', 'POUPAN√áA', '104'),
+	('000000003', 'SAL√ÅRIO', '341'),
 	('000000004', 'CORRENTE', '001'),
-	('000000005', 'SAL¡RIO', '341'),
-	('000000006', 'SAL¡RIO', '341'),
+	('000000005', 'SAL√ÅRIO', '341'),
+	('000000006', 'SAL√ÅRIO', '341'),
 	('000000007', 'CORRENTE', '033'),
 	('000000008', 'CORRENTE', '001'),
 	('000000009', 'CORRENTE', '033'),
@@ -154,9 +154,9 @@ INSERT INTO DADOS_BANCARIOS VALUES
 
 INSERT INTO CLIENTE VALUES 
 --	(CPF, RG, NOME, DATA_NASC, NACIONALIDADE, EST_CIVIL, CONTATO, D_BANCARIOS, PROFISSAO, ESTADO, CIDADE,ENDERECO)
-	('00000000001', '000000001','Ayla de Moraes','19780329','BRASILEIRO', 'SOLTEIRO', '002','000000001', 'ESTAGI¡RIA', 'SP', 'MAU¡', 'RUA EXEMPLO'),
-	('00000000002', '000000002', 'Henry Dutra','19980329','BRASILEIRO', 'SOLTEIRO', '004','000000002', 'SEGURAN«A', 'MG', 'BELO HORIZONTE', 'RUA EXEMPLO'),
-	('00000000003', '000000003', 'Gabrielly Lino de Moraes','19880329','BRASILEIRO', 'SOLTEIRO', '005','000000004', 'SECRET¡RIA', 'MG', 'BELO HORIZONTE', 'RUA EXEMPLO'),
+	('00000000001', '000000001','Ayla de Moraes','19780329','BRASILEIRO', 'SOLTEIRO', '002','000000001', 'ESTAGI√ÅRIA', 'SP', 'MAU√Å', 'RUA EXEMPLO'),
+	('00000000002', '000000002', 'Henry Dutra','19980329','BRASILEIRO', 'SOLTEIRO', '004','000000002', 'SEGURAN√áA', 'MG', 'BELO HORIZONTE', 'RUA EXEMPLO'),
+	('00000000003', '000000003', 'Gabrielly Lino de Moraes','19880329','BRASILEIRO', 'SOLTEIRO', '005','000000004', 'SECRET√ÅRIA', 'MG', 'BELO HORIZONTE', 'RUA EXEMPLO'),
 	('00000000004', '000000004', 'Yago da Silva','19880329','BRASILEIRO', 'CASADO', '006','000000007', 'AUXILIAR DE LIMPEZA', 'BA','SALVADOR', 'RUA EXEMPLO'),
 	('00000000005', '000000005', 'Sophia Ferreira','19770329', 'BRASILEIRO', 'CASADO', '007','000000008', 'DO LAR', 'BA', 'SALVADOR', 'RUA EXEMPLO'),
 	('00000000006', '000000006', 'Anthony Freitas','19750329', 'BRASILEIRO', 'SOLTEIRO', '008','000000009', 'PINTOR', 'RS', 'CANOAS', 'RUA EXEMPLO'),
@@ -173,15 +173,15 @@ INSERT INTO AGENTE_VENDAS VALUES
 
 INSERT INTO VENDA VALUES
 	('00000000001','0001', '000931894000133', '20210305', '180000.00'),
-	('00000000002','0005', '075538298000197',  '20210303','175000.00'),
-	('00000000003','0007', '075538298000197', '20210307','240000.00'),
+	('00000000002','0005', '07500298000197',  '20210303','175000.00'),
+	('00000000003','0007', '00000098000197', '20210307','240000.00'),
 	('00000000004','0003','000931894000133', '20210302','128000.00'),
-	('00000000005','0002', '71476527000135', '20210301', '240000.00'),
+	('00000000005','0002', '71000027000135', '20210301', '240000.00'),
 	('00000000006','0008', '000931894000133', '20210308','180000.00'),
 	('00000000007','0004', '71476527000135', '20210309', '128000.00'),
 	('00000000008','0009','000931894000133', '20210306','175000.00'),
-	('00000000009','0005','000931894000133', '20210310','180000.00'),
-	('00000000010','0006','71476527000135', '20210311', '128000.00');
+	('00000000009','0005','000930894000133', '20210310','180000.00'),
+	('00000000010','0006','71000000035', '20210311', '128000.00');
 
 --Buscas
 --dados do cliente
@@ -195,7 +195,7 @@ SELECT TOP 1 AGENTE_VENDAS.NOME, AGENTE_VENDAS.PROFISSAO, AGENTE_VENDAS.CPF, AGE
  AGENTE_VENDAS.EMPRESA, AGENTE_VENDAS.CNPJ, AGENTE_VENDAS.CIDADE, AGENTE_VENDAS.ESTADO
  FROM AGENTE_VENDAS INNER JOIN VENDA ON AGENTE_VENDAS.CNPJ = VENDA.COD_AGE
  WHERE COD_AGE = '000931894000133';
---OBS: o DISTINCT compara todos os itens da tabela para ver se È o msm, o TOP 1 pega o primeiro
+--OBS: o DISTINCT compara todos os itens da tabela para ver se √© o msm, o TOP 1 pega o primeiro
 --encotrado melhorando o tempo de busca.
 
  --dados empreendimeto

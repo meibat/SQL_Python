@@ -6,10 +6,10 @@ class db_sql:
     def connection(self):
         try:
             cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};'
-                                  'SERVER=34.136.62.4;'
+                                  'SERVER=;'
                                   'DATABASE=Desafio_SQL;'
                                   'UID=sqlserver;'
-                                  'PWD=b0u9t9p12;')
+                                  'PWD=;')
         except:
             print('Não foi possível acessar o DataBase!')
         else:
